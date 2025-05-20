@@ -15,4 +15,7 @@ This project builds a mini data warehouse for a fictional retail company to anal
 - Mitchel Makena- 667413(@MMMakena)
 - Esther Wambui - 669399(@Esther-Wambui)
 - Kyra Joy Kariuki - 669619(@Kyrajwk)
-- Queen  
+- Queen Kibegi -668897(@QUEEN-KIBEGI)
+- Claire Mwarari -669470(@dollykoi)
+# License
+MIT License
