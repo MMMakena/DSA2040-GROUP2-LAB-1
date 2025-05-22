@@ -15,12 +15,18 @@ This project builds a mini data warehouse for a fictional retail company to anal
 3. Load CSV data using `load_data.sql`
 4. Run queries from `queries.sql` to analyze
 
-##  
+## Overview
+- Through Microsoft SQL, the database Retail Data Warehouse was created. We ran the `schema.sql` and created the 4 different table; dim_date,dim_product,dim_store and fact_sales.
+- Looking through the tables, there was no data inputted. We created a new query `import files.sql`under the database and loaded the CSV file of each table.
+- We loaded the data successfully  and use `queries.sql` to run different analytical queries. The queries executed successfully.
+- We did the reflection and discussions on an rmd file `QUESTION 5.Rmd`.
+
 ## Team members
 - Mitchel Makena- 667413(@MMMakena)
 - Esther Wambui - 669399(@Esther-Wambui)
 - Kyra Joy Kariuki - 669619(@Kyrajwk)
 - Queen Kibegi -668897(@QUEEN-KIBEGI)
 - Claire Mwarari -669470(@dollykoi)
+
 # License
 MIT License
