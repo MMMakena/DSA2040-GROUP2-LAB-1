@@ -10,13 +10,13 @@ This project builds a mini data warehouse for a fictional retail company to anal
 - `*.csv`: Dimension and fact data
 
 ## How to use 
-1. Set up a PostgreSQL database
+1. Set up a MicrosoftSQL database
 2. Run `schema.sql` to create the schema
 3. Load CSV data using `load_data.sql`
 4. Run queries from `queries.sql` to analyze
 
 ## Overview
-- Through Microsoft SQL, the database Retail Data Warehouse was created. We ran the `schema.sql` and created the 4 different table; dim_date,dim_product,dim_store and fact_sales.
+- Through Microsoft SQL, the database Retail Data Warehouse was created. We ran the `schema.sql` and created the 4 different tables; dim_date,dim_product,dim_store and fact_sales.
 - Looking through the tables, there was no data inputted. We created a new query `import files.sql`under the database and loaded the CSV file of each table.
 - We loaded the data successfully  and use `queries.sql` to run different analytical queries. The queries executed successfully.
 - We did the reflection and discussions on an rmd file `QUESTION 5.Rmd`.
