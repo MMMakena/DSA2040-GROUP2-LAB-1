@@ -1,0 +1,14 @@
+---
+title: "GROUPWORK DSA2040A"
+author: "ESTHER WAMBUI 669399"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# 5. Discussion Questions:  
+
+## 1. Why use a star schema instead of a normalized schema? 
+
+## 2. What are the benefits of separating facts from dimensions? 
+
+## 3. What types of business decisions could this warehouse support? 
