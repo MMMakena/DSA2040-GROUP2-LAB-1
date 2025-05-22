@@ -9,6 +9,10 @@ output: html_document
 
 ## 1. Why use a star schema instead of a normalized schema? 
 
+a. Star Schema models focus on simplicity and ease of use. In contrast, Normalized databases' highly structured nature makes it challenging to adapt them to data and schema changes over time.
+b. A Star Schema is ideal for final stage presentation and user-friendly querying. In contrast, a normalized schema has data spread across numerous tables leading to slower queries.
+c. Given its flatter structure, a Star Schema is suitable for straightforward and high-performance reporting but requires meticulous ETL staging processes to keep dimension and fact tables updated. Normalized Models are much more complex to interpret because data is distributed across numerous tables, leading to queries that are harder to write and might perform slower.
+
 ## 2. What are the benefits of separating facts from dimensions? 
 
 ## 3. What types of business decisions could this warehouse support? 
