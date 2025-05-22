@@ -25,6 +25,7 @@ To get total revenue by month, you join fact_sales with dim_date, and group by m
 Only two simple tables are involved — no need to join many normalized date tables.
 d.Supports scalable analytics across multiple dimensions (like time, product, and region).
 -You can easily add more dimensions or facts without changing existing table structures.
+
 ## 3. What types of business decisions could this warehouse support? 
 1.Product Performance - Using category and SUM(f.revenue) helps in identifying top-selling product categories.
 2.Sales trends - with the dim_date ,it helps track monthly trends over time or even seasonal trends.
