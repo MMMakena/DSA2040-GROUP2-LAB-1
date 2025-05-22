@@ -19,7 +19,18 @@ This project builds a mini data warehouse for a fictional retail company to anal
 - Through Microsoft SQL, the database Retail Data Warehouse was created. We ran the `schema.sql` and created the 4 different tables; dim_date,dim_product,dim_store and fact_sales.
 - Looking through the tables, there was no data inputted. We created a new query `import files.sql`under the database and loaded the CSV files of each table.
 - We loaded the data successfully  and use `queries.sql` to run different analytical queries. The queries executed successfully.
-   1. Total Revenue by Product category![alt text](Total Revenue.png)
+  
+   1. Total Revenue by Product category 
+   ![alt text](image.png)
+
+   2. Monthly Sales Trends 
+   ![alt text](image-1.png)
+
+   3. Revenue by Region 
+   ![alt text](image-2.png)
+
+   4. Top Products by Quantity Sold ![alt text](image-3.png)
+
 - We did the reflection and discussions on an rmd file `QUESTION 5.Rmd`.
 - We used the Github in visual studio to push the files.
 
