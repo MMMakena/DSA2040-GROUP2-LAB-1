@@ -16,3 +16,9 @@ c. Given its flatter structure, a Star Schema is suitable for straightforward an
 ## 2. What are the benefits of separating facts from dimensions? 
 
 ## 3. What types of business decisions could this warehouse support? 
+
+1.Product Performance - Using category and SUM(f.revenue) helps in identifying top-selling product categories.
+2.Sales trends - with the dim_date ,it helps track monthly trends over time or even seasonal trends.
+3.Inventory management - knowing the sales volume per product helps optimize the stock levels.
+4.Regional strategy - using dim_store,analyzes revenue by region to focus marketing or even the expansion
+5.Revenue Forecasting - the historical trends can be used to predict future sales and set targets.
