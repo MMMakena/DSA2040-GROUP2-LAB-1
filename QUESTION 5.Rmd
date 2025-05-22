@@ -14,9 +14,18 @@ b. A Star Schema is ideal for final stage presentation and user-friendly queryin
 c. Given its flatter structure, a Star Schema is suitable for straightforward and high-performance reporting but requires meticulous ETL staging processes to keep dimension and fact tables updated. Normalized Models are much more complex to interpret because data is distributed across numerous tables, leading to queries that are harder to write and might perform slower.
 
 ## 2. What are the benefits of separating facts from dimensions? 
-
+a.It provides data clarity and consistency
+-all product names are stored in one place to prevent discrepancies.
+b.Allows for better data organization
+-By separating quantitative data (facts) from descriptive data (dimensions), the warehouse becomes more structured and easier to understand.
+c.Improves query performance
+-A fact-dimension structure allows queries to run faster because it minimizes the number of joins and avoids complex nested relationships.
+ Example:
+To get total revenue by month, you join fact_sales with dim_date, and group by month.
+Only two simple tables are involved — no need to join many normalized date tables.
+d.Supports scalable analytics across multiple dimensions (like time, product, and region).
+-You can easily add more dimensions or facts without changing existing table structures.
 ## 3. What types of business decisions could this warehouse support? 
-
 1.Product Performance - Using category and SUM(f.revenue) helps in identifying top-selling product categories.
 2.Sales trends - with the dim_date ,it helps track monthly trends over time or even seasonal trends.
 3.Inventory management - knowing the sales volume per product helps optimize the stock levels.
